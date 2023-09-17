@@ -1,6 +1,6 @@
 # Tokyo Payload
 
-**Tokyo Payload** is a EVM Jump-Oriented Programming puzzle I created for SECCON CTF 2023 Quals.
+**Tokyo Payload** is an EVM Jump-Oriented Programming puzzle I created for SECCON CTF 2023 Quals.
 
 This repo includes:
 - `build`: the source codes of the challenge server. based on https://github.com/Zellic/example-ctf-challenge
