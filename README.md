@@ -81,16 +81,26 @@ cd build
 docker compose up
 ```
 
-## Run the solver
+## Access the challenge server
 
-Remote:
 ```
-cd solver
-docker run -e SECCON_HOST=tokyo-payload.seccon.games -e SECCON_PORT=31337 (docker build -q .)
+nc localhost 31337
 ```
+
+Good luck!
+
+---
+
+## Run the author's solver
 
 Local:
 ```
 cd solver
 docker run -e SECCON_HOST=localhost -e SECCON_PORT=31337 --network=host (docker build -q .)
+```
+
+Remote:
+```
+cd solver
+docker run -e SECCON_HOST=tokyo-payload.seccon.games -e SECCON_PORT=31337 (docker build -q .)
 ```
